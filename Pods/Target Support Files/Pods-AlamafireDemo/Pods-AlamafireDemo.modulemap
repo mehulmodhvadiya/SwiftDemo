@@ -1,0 +1,6 @@
+framework module Pods_AlamafireDemo {
+  umbrella header "Pods-AlamafireDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
