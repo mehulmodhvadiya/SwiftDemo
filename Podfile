@@ -10,4 +10,8 @@ pod 'Firebase/Database'
 pod 'Firebase/Storage'
 pod 'SVProgressHUD'
 pod 'IQKeyboardManagerSwift'
+pod 'SDWebImage'
+pod 'UnderLineTextField'
+pod 'NVPullToRefresh'
+pod 'TagControl'
 end

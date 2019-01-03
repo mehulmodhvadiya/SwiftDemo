@@ -40,8 +40,20 @@ PODS:
     - nanopb/encode (= 0.3.8)
   - nanopb/decode (0.3.8)
   - nanopb/encode (0.3.8)
+  - NVActivityIndicatorView (4.1.1):
+    - NVActivityIndicatorView/Presenter (= 4.1.1)
+  - NVActivityIndicatorView/Presenter (4.1.1)
+  - NVPullToRefresh (0.1.0):
+    - NVActivityIndicatorView (~> 4.1.1)
+    - PullToRefresher (~> 3.0.2)
   - ObjectMapper (3.1.0)
+  - PullToRefresher (3.0.2)
+  - SDWebImage (4.3.3):
+    - SDWebImage/Core (= 4.3.3)
+  - SDWebImage/Core (4.3.3)
   - SVProgressHUD (2.2.5)
+  - TagControl (0.0.3)
+  - UnderLineTextField (2.0.7)
 
 DEPENDENCIES:
   - Alamofire
@@ -50,7 +62,11 @@ DEPENDENCIES:
   - Firebase/Database
   - Firebase/Storage
   - IQKeyboardManagerSwift
+  - NVPullToRefresh
+  - SDWebImage
   - SVProgressHUD
+  - TagControl
+  - UnderLineTextField
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -67,8 +83,14 @@ SPEC REPOS:
     - IQKeyboardManagerSwift
     - leveldb-library
     - nanopb
+    - NVActivityIndicatorView
+    - NVPullToRefresh
     - ObjectMapper
+    - PullToRefresher
+    - SDWebImage
     - SVProgressHUD
+    - TagControl
+    - UnderLineTextField
 
 SPEC CHECKSUMS:
   Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
@@ -84,9 +106,15 @@ SPEC CHECKSUMS:
   IQKeyboardManagerSwift: 04e8679f85e496bb2c474eeb9284052f1b3c391c
   leveldb-library: 08cba283675b7ed2d99629a4bc5fd052cd2bb6a5
   nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
+  NVActivityIndicatorView: 60109b9bf46efc2e71ab81453196ccdfdfeea870
+  NVPullToRefresh: e0473d64e3b4a51647da4fc5a558934166a3a04e
   ObjectMapper: 20505058f54e5c3ca69e1d6de9897d152a5369a6
+  PullToRefresher: 25a367871a70b1da0b28e8e7cecceb4ef04f5f56
+  SDWebImage: de4d90b5bff3571eae7bd16202b1f43135409fa5
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  TagControl: cf5d04c5152d48534efb93f6927fffeeea0acc65
+  UnderLineTextField: e3c9640e3a3fe529a617ee217f5d8386b8e8440c
 
-PODFILE CHECKSUM: fbd652bf4e4018abd2714a0b63c715fd58253b9a
+PODFILE CHECKSUM: 11dca34a7011ed7ae0998a541f600f12281f8721
 
 COCOAPODS: 1.5.3
